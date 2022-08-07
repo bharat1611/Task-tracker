@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { useState } from 'react';
 import Header from './Components/Header';
 import Tasks from './Components/Tasks';
 
 
 const App = () => {
-
-    const [tasks] = useState([
+    const [tasks, setTasks] = useState([
         {
             id: 1,
             text: 'Hello',
@@ -19,6 +18,12 @@ const App = () => {
             reminder: true,
         },
     ])
+
+    // Delete Task
+
+    const deleteTask = (id) => {
+      console.log('delete', id)
+    }
 
   return (
     <div className="container">
