@@ -11,14 +11,14 @@ const App = () => {
   const [tasks, setTasks] = useState([
     {
       id: 1,
-      text: 'Hello',
-      day: 'Feb5th at 2',
+      text: 'Task 1',
+      day: 'Feb 5th at 2',
       reminder: true,
     },
     {
       id: 2,
-      text: 'Hello1',
-      day: 'Feb5th at 2',
+      text: 'Task 2',
+      day: 'Jan 14th at 10',
       reminder: false,
     },
   ])
